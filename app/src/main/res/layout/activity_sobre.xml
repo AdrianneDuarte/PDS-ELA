@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTituloSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Sobre o ELA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/txtSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="O projeto English Lessons App (ELA) é um aplicativo para dispositivos móveis com sistema operacional Android, que visa auxiliar alunos e professores no processo de ensino-aprendizagem dos verbos irregulares, conteúdo presente no currículo escolar da disciplina de Língua Inglesa, através de um jogo de tabuleiro com 180 questões abordando três tempos verbais: Present Perfect, Past Simple e Past Perfect." />
+
+            <TextView
+                android:id="@+id/txtTituloTempos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Estruturas dos tempos verbais"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/txtPresent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="No Present Perfect, utiliza-se as seguintes estruturas para as formas afirmativa, negativa e interrogativa. Na afirmativa, o correto é Sujeito + have/has + particípio passado. Na negativa, Sujeito + have/has + not + particípio passado. Na interrogativa, Have/has + sujeito + particípio passado." />
+
+            <TextView
+                android:id="@+id/txtPastSimple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="No Past Simple, utiliza-se as seguintes estruturas para formas afirmativa, negativa e interrogativa. Na afirmativa, o correto é Sujeito + did + particípio passado. Na negativa, Sujeito + did + not + particípio passado. Na interrogativa, Did + sujeito + particípio passado." />
+
+            <TextView
+                android:id="@+id/txtPastPerfect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="No Past Perfect, utiliza-se as seguintes estruturas para formas afirmativa, negativa e interrogativa. Na afirmativa, o correto é Sujeito + had + particípio passado. Na negativa, Sujeito + had + not + particípio passado. Na interrogativa, Had + sujeito + particípio passado." />
+
+            <TextView
+                android:id="@+id/txtJogar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Como jogar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/txtJogar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="O objetivo do jogo é ser o primeiro que, partindo de uma casa de origem, chega com quatro peões à casa final. Para isso, deve-se dar a volta inteira no tabuleiro e chegar antes dos adversários. Cada jogador por sua vez lança um dado e faz avançar um dos seus peões em jogo o número de casas indicado. O seis permite colocar em jogo um peão que esteja na casa inicial ou fazer avançar um peão seis casas, e ainda um novo lançamento de dados. O número um também permite que o jogador tire o peão, mas é só o seis que permite o jogador a lançar o dado novamente." />
+
+            <TextView
+                android:id="@+id/txtJogar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Quando o jogador entra com um peão na parte final, poderá completar o percurso somente se tirar o número de casas exato da casa final. Caso tire um número maior, o jogador entra e retrocede o número das casas que sobraram." />
+
+            <TextView
+                android:id="@+id/txtJogar4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Não é permitido mais do que um peão em cada casa. Caso um peão venha a ocupar uma casa ocupada por um peão de outro jogador, o peão original regressará à casa inicial, é o chamado comer. É proibido comer o adversário que está na casa de saída." />
+
+            <TextView
+                android:id="@+id/txtJogar5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Quando dois peões de uma mesma cor se encontram em uma mesma casa, forma-se uma torre, impedindo outro peão de ocupar esta casa. Só poderá comer a torre com outra torre. Dois peões somente poderão caminhar como torre (ou seja, ambos juntos) caso haja uma torre no meio do caminho para ser comida uma vez que somente uma torre poderá comer outra, mandando os dois peões para casa inicial. Não havendo outra torre, e lançando o dado, o jogador deverá desfazer a torre, caminhando somente com um dos peões." />
+
+            <TextView
+                android:id="@+id/txtJogar6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Existem quatro peões ou cavalos de cada cor(azul, verde, amarelo e vermelho) o tabuleiro tem a casa de saída logo após a parte final, como o peão (cavalo) não pode retroceder, é necessário dar outra volta. " />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

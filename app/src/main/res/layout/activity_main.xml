@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fundo"
+    android:orientation="vertical"
+    tools:context=".TelaInicialActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="300sp"
+        android:layout_height="140sp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/espaco"
+        android:background="@mipmap/logo"
+        android:scaleType="center" />
+
+    <ImageView
+        android:id="@+id/imgFrase"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginBottom="@dimen/espaco"
+        android:background="@mipmap/frase" />
+
+    <ImageView
+        android:id="@+id/jogar"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:src="@mipmap/jogar" />
+
+    <ImageView
+        android:id="@+id/verMais"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:src="@mipmap/vermais" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:radioButtonStyle">@style/CustomRadio</item>
+        <item name="android:layout_margin">
+            4sp
+        </item>
+    </style>
+
+    <style name="CustomRadio">
+        <item name="android:colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:radioButtonStyle">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomTitle" parent="TextAppearance.AppCompat.Large">
+
+    </style>
+</resources>

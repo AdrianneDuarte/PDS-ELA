@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".JogoActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layoutSpace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imgJogador1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/iconnick" />
+
+    <ImageView
+        android:id="@+id/imgDadoAzul"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imgJogador1"
+        android:paddingTop="10dp"
+        android:src="@mipmap/dado6_shine" />
+
+    <ImageView
+        android:id="@+id/imgJogador2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@mipmap/iconnick" />
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imgTabuleiro"-->
+    <!--android:layout_width="350dp"-->
+    <!--android:layout_height="350dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--app:srcCompat="@mipmap/tabuleiro" />-->
+
+    <ImageView
+        android:id="@+id/imgDadoVermelho"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@id/imgJogador2"
+        android:paddingTop="10dp"
+        app:srcCompat="@mipmap/dado6_shine" />
+
+    <ImageView
+        android:id="@+id/imgJogador3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@mipmap/iconnick" />
+
+    <ImageView
+        android:id="@+id/imgDadoAmarelo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@id/imgJogador3"
+        android:layout_toEndOf="@id/imgJogador3"
+        android:paddingEnd="10dp"
+        app:srcCompat="@mipmap/dado6_shine" />
+
+    <ImageView
+        android:id="@+id/imgJogador4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@mipmap/iconnick" />
+
+    <ImageView
+        android:id="@+id/imgDadoVerde"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/imgJogador4"
+        android:paddingEnd="10dp"
+        app:srcCompat="@mipmap/dado6_shine" />
+
+   </RelativeLayout>
